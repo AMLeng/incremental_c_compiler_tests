@@ -1,6 +1,12 @@
 # Write a C Compiler!
 
-This is a set of C test programs to help you write your own compiler. They were written to accompany [this tutorial](https://norasandler.com/2017/11/29/Write-a-Compiler.html).
+This is a set of C test programs to help you write your own compiler. They were originally written to accompany [this tutorial](https://norasandler.com/2017/11/29/Write-a-Compiler.html), but I (Alec Leng) have forked them to implement a C compiler with slightly different stages than the original tutorial (see my repository [here](https://github.com/AMLeng/IncrementalC)). 
+
+Right now, I have implemented up through stage 3.
+
+## Stage Differences
+* Stages 1 through 3 are the same
+* I insert an additional stage 4
 
 ## Usage
 
