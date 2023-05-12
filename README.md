@@ -2,11 +2,13 @@
 
 This is a set of C test programs to help you write your own compiler. They were originally written to accompany [this tutorial](https://norasandler.com/2017/11/29/Write-a-Compiler.html), but I (Alec Leng) have forked them to implement a C compiler with slightly different stages than the original tutorial (see my repository [here](https://github.com/AMLeng/IncrementalC)). 
 
-Right now, I have implemented up through stage 4.
+Right now, I have implemented up through stage 5.
 
 ## Stage Differences
 * Stages 1 through 3 are the same
 * I insert an additional stage 4, implementing most (real) built in types
+* My stage 5 is the same as Nora Sandler's (implementing local variables), with added tests for conversion to \Bool
+* Nora Sandler's stage 4 becomes my stage 6
 
 ## Usage
 
@@ -35,6 +37,3 @@ In order to use this script, your compiler needs to follow this spec:
 
 The script doesn’t check whether your compiler outputs sensible error messages, but you can use the invalid test programs to test that manually.
 
-## Contribute
-
-Additional test cases welcome! You can also file issues here, either about the test suite itself or about the content of the tutorial.
