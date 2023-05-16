@@ -1,4 +1,4 @@
 int main() {
     int a = 0;
-    return a > -1 ? 4 : 5;
+    return ~a ? 4 : 5;
 }
