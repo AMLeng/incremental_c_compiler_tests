@@ -2,7 +2,7 @@
 
 This is a set of C test programs to help you write your own compiler. They were originally written to accompany [this tutorial](https://norasandler.com/2017/11/29/Write-a-Compiler.html), but I (Alec Leng) have forked them to implement a C compiler with slightly different stages than the original tutorial (see my repository [here](https://github.com/AMLeng/IncrementalC)). 
 
-Right now, I have implemented up through stage 9.
+Right now, I have implemented up through stage 10.
 
 ## Stage Differences
 * Stages 1 through 3 are the same as Nora Sandler's
@@ -12,6 +12,7 @@ Right now, I have implemented up through stage 9.
 * My stage 7 is Nora Sandler's stage 4, with a bunch of additional binary operators added
 * My stage 8 is Nora Sandler's stage 8 (loops), in addition to gotos, labels, and switch statements
 * My stage 9 is Nora Sandler's stages 9 and 10
+* My stage 10 adds pointers
 
 ## Usage
 
